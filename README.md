@@ -6,28 +6,37 @@
 
 ## Requirements
 
-- **Node.js v22.14.0**: Ensure you are using the specified version of Node.js.
+-   **Node.js v22.14.0**: Ensure you are using the specified version of Node.js.
 
-  - You can verify your Node.js version by running:
-    ```bash
-    node -v
-    ```
+    -   You can verify your Node.js version by running:
+        ```bash
+        node -v
+        ```
 
-- **WebDriverIO**: A powerful testing framework for web applications.
-- **A compatible browser**: For example, Chrome or Firefox.
+-   **WebDriverIO**: A powerful testing framework for web applications.
+-   **A compatible browser**: For example, Chrome or Firefox.
 
 ## Installation
 
 Follow the steps below to get started with the project:
 
 1. **Clone the repository** :
-   git clone <repository-url>
+
+    ```bash
+     git clone https://github.com/EugeneHadion/Perion.git
+    ```
 
 2. **Install dependencies** :
-   npm install
+
+    ```bash
+     npm i
+    ```
 
 3. **Running Tests** :
-   npx wdio run wdio.conf.js
+
+    ```bash
+     npx wdio run wdio.conf.js
+    ```
 
 4. **Monitor events** :
    All motitor events are saved to .txt files
