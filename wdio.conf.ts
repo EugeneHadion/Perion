@@ -9,11 +9,11 @@ export const config: WebdriverIO.Config = {
   tsConfigPath: "./tsconfig.json",
 
   specs: [
-    // './test/specs/**/*.ts'
+    './test/specs/**/*.ts'
     // "./test/specs/2_OdrerAheadBtn.e2e.ts",
     // "./test/specs/3_AdvertArea.e2e.ts",
     // "./test/specs/4_AdvertCloseBtn.e2e.ts",
-    "./test/specs/5_AdvertAutoDisappearence.e2e.ts",
+    // "./test/specs/5_AdvertAutoDisappearence.e2e.ts",
 
   ],
   exclude: [
